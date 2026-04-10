@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class q02main {
+public class Q02main {
 
     public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class q02main {
         System.out.print("Digite a segunda nota: ");
         double nota2 = sc.nextDouble();
 
-        q02classe c = new Classe1(nome, nota1, nota2);
+        Q02classe c = new Classe1(nome, nota1, nota2);
 
         c.mostrarResultado();
     }
