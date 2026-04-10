@@ -15,7 +15,7 @@ public class q01main {
         System.out.print("Digite o salário bruto: ");
         double salarioBruto = sc.nextDouble();
 
-        Classe1 c = new Classe1(matricula, nome, salarioBruto);
+        q01classe c = new Classe1(matricula, nome, salarioBruto);
 
         System.out.println("\n----- CONTRACHEQUE -----");
         c.mostrarContraCheque();
