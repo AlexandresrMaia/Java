@@ -1,10 +1,10 @@
-public class q01classe {
+public class Q01classe {
 
     int matricula;
     String nome;
     double salarioBruto;
 
-    public q01classe(int matricula, String nome, double salarioBruto){
+    public Q01classe(int matricula, String nome, double salarioBruto){
         this.matricula = matricula;
         this.nome = nome;
         this.salarioBruto = salarioBruto;
