@@ -15,7 +15,7 @@ public class Q02main {
         System.out.print("Digite a segunda nota: ");
         double nota2 = sc.nextDouble();
 
-        Q02classe c = new Classe1(nome, nota1, nota2);
+        Q02classe c = new Q02classe(nome, nota1, nota2);
 
         c.mostrarResultado();
     }
