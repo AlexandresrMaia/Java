@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class q03main {
+public class Q03main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Calculadora calc = new Calculadora();
