@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class q01main {
+public class Q01main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class q01main {
         System.out.print("Digite o salário bruto: ");
         double salarioBruto = sc.nextDouble();
 
-        q01classe c = new Classe1(matricula, nome, salarioBruto);
+        Q01classe c = new Classe1(matricula, nome, salarioBruto);
 
         System.out.println("\n----- CONTRACHEQUE -----");
         c.mostrarContraCheque();
