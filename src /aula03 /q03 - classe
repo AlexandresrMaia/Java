@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class q03classe {
+class Q03classe {
     public double somar(double a, double b) {
         return a + b;
     }
