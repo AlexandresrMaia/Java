@@ -4,7 +4,7 @@ public class q01classe {
     String nome;
     double salarioBruto;
 
-    public Classe1(int matricula, String nome, double salarioBruto){
+    public q01classe(int matricula, String nome, double salarioBruto){
         this.matricula = matricula;
         this.nome = nome;
         this.salarioBruto = salarioBruto;
